@@ -20,5 +20,22 @@ namespace PomodoroWPF
         {
             InitializeComponent();
         }
+
+        private void Start_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Pause_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ChangeBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
     }
 }

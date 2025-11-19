@@ -10,9 +10,9 @@
     <Grid>
         <TextBlock x:Name="MainTimer" HorizontalAlignment="Center" Margin="0,39,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="64" Width="252" FontSize="40" TextAlignment="Center"/>
         <ProgressBar x:Name="ProgressBar" HorizontalAlignment="Center" Height="30" Margin="0,152,0,0" VerticalAlignment="Top" Width="184" Maximum="100"/>
-        <Button x:Name="StartBtn" Content="Запуск" HorizontalAlignment="Left" Margin="30,300,0,0" VerticalAlignment="Top" Height="51" Width="100" FontSize="20"/>
-        <Button x:Name="PauseBtn" Content="Пауза" HorizontalAlignment="Left" Margin="160,300,0,0" VerticalAlignment="Top" Height="51" Width="100" FontSize="20"/>
-        <Button x:Name="ChangeBtn" Content="Смена" HorizontalAlignment="Left" Margin="290,300,0,0" VerticalAlignment="Top" Height="51" Width="100" FontSize="20"/>
+        <Button x:Name="StartBtn" Content="Запуск" HorizontalAlignment="Left" Margin="30,300,0,0" VerticalAlignment="Top" Height="51" Width="100" FontSize="20" Click="Start_Click"/>
+        <Button x:Name="PauseBtn" Content="Пауза" HorizontalAlignment="Left" Margin="160,300,0,0" VerticalAlignment="Top" Height="51" Width="100" FontSize="20" Click="Pause_Click"/>
+        <Button x:Name="ChangeBtn" Content="Смена" HorizontalAlignment="Left" Margin="290,300,0,0" VerticalAlignment="Top" Height="51" Width="100" FontSize="20" Click="Change_Click"/>
         <TextBlock x:Name="Status" HorizontalAlignment="Center" Margin="0,217,0,0" TextWrapping="Wrap" Text="Работа" VerticalAlignment="Top" Height="30" Width="100" TextAlignment="Center" FontSize="18"/>
 
     </Grid>
